@@ -1,0 +1,22 @@
+{
+  "name": "node-api",
+  "version": "0.0.0",
+  "description": "node-api to get countries details",
+  "main": "server.js",
+  "scripts": {
+    "nodemon": "nodemon server",
+    "start": "node server"
+  },
+  "author": "Sandesh Karade",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "uniqid": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
